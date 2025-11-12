@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobrodošli - Programerski Zadaci</title>
+
+    <style>
+        /* RESET I OSNOVNI STILOVI */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            /* Uklanjamo sve opacity/transition sa body, pozadina je odmah vidljiva */
+        }
+
+        /* POZADINSKA SLIKA I STILIZOVANJE CELE STRANICE */
+        body {
+            /* ISPRAVLJENA PUTANJA ZA SLIKU */
+            background-image: url('../slike/sd.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #1c1c1c;
+            /* CENTRIRANJE SA FLEXBOX-OM */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* DEFINICIJA ANIMACIJE: Kontejner se pojavi i malo poveća */
+        @keyframes container-fade-in {
+            0% {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* GLAVNI KONTEJNER (sredina stranice) - SADA SA ANIMACIJOM */
+        .main-container {
+            background-color: rgba(0, 0, 0, 0.85);
+            padding: 50px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+            max-width: 450px;
+            width: 100%;
+            border: 2px solid #4CAF50;
+            /* PRIMENA ANIMACIJE */
+            opacity: 0; /* Inicijalno nevidljiv */
+            animation: container-fade-in 1.5s ease-out 0.5s forwards;
+            /* Trajanje: 1.5s, Tip: ease-out, Zakašnjenje (Delay): 0.5s, Stanje na kraju: forwards (ostaje vidljiv) */
+        }
+
+            /* NASLOV, PARAGRAF I DUGMAD (Stilovi ostaju isti) */
+            .main-container h1 {
+                color: #ffcc00;
+                margin-bottom: 15px;
+                font-size: 2.5em;
+                text-shadow: 1px 1px 4px #000;
+            }
+
+            .main-container p {
+                margin-bottom: 40px;
+                font-size: 1.1em;
+                font-style: italic;
+            }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .custom-button {
+            text-decoration: none;
+            color: white;
+            padding: 18px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px #555;
+            position: relative;
+        }
+
+        .autor-btn {
+            background-color: #3498db;
+        }
+
+        .cpp-btn {
+            background-color: #e74c3c;
+        }
+
+        .cs-btn {
+            background-color: #f39c12;
+        }
+
+        .custom-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .custom-button:active {
+            transform: translateY(4px);
+            box-shadow: 0 2px #555;
+        }
+
+        @media (max-width: 500px) {
+            .main-container {
+                padding: 30px;
+                max-width: 95%;
+            }
+
+            .custom-button {
+                font-size: 1.1em;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1> Dobrodošli </h1>
+        <p>Pogledajte sledeće stranice:</p>
+
+        <div class="button-container">
+            
+            <a href="oautoru.html"class="custom-button autor-btn">Autor Stranice</a>
+            <a href="cpp.html" class="custom-button cpp-btn">C++ Zadaci</a>
+            <a href="cs.html" class="custom-button cs-btn">C# Zadaci</a>
+        </div>
+    </div>
+</body>
+</html>

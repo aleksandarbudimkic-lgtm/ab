@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autor Stranice - Podaci</title>
+
+    <style>
+        /* RESET I OSNOVNI STILOVI */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+        }
+
+        /* POZADINSKA SLIKA I STILIZOVANJE CELE STRANICE (Ista pozadina kao na glavnoj) */
+        body {
+            /* Korišćenje iste putanje do slike */
+         
+            background-size: cover;
+            background-image: url('../slike/sd.jpg');
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #1c1c1c;
+            /* CENTRIRANJE SA FLEXBOX-OM */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* DEFINICIJA ANIMACIJE (isti efekat kao na glavnoj stranici) */
+        @keyframes container-fade-in {
+            0% {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* GLAVNI KONTEJNER - CENTAR STRANICE */
+        .author-container {
+            background-color: rgba(44, 62, 80, 0.9); /* Tamno plava/siva pozadina */
+            padding: 40px 50px;
+            border-radius: 15px;
+            text-align: left; /* Tekst će biti poravnat levo unutar kontejnera */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            width: 100%;
+            border-left: 5px solid #3498db; /* Plava linija sa strane */
+            /* PRIMENA ANIMACIJE */
+            opacity: 0;
+            animation: container-fade-in 1.2s ease-out 0.3s forwards;
+        }
+
+            .author-container h1 {
+                color: #ecf0f1; /* Svetla boja naslova */
+                margin-bottom: 25px;
+                text-align: center;
+                font-size: 2em;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 10px;
+            }
+
+        /* STILIZOVANJE LISTE/INFORMACIJA */
+        .info-list {
+            list-style: none; /* Uklanja tačke/brojeve */
+            padding: 0;
+        }
+
+            .info-list li {
+                font-size: 1.2em;
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: space-between; /* Razdvaja labelu i vrednost */
+                border-bottom: 1px dashed rgba(255, 255, 255, 0.3); /* Tanko podvlačenje */
+                padding-bottom: 5px;
+            }
+
+        /* STIL ZA LABELU (Ime i prezime:) */
+        .info-label {
+            font-weight: bold;
+            color: #3498db; /* Plava boja za labelu */
+            flex-shrink: 0; /* Osigurava da se labela ne smanjuje */
+            margin-right: 15px;
+        }
+
+        /* STIL ZA VREDNOST (Ovde se popunjavaju podaci) */
+        .info-value {
+            color: #ecf0f1;
+            font-style: italic;
+        }
+
+        /* STIL ZA DUGME ZA POVRATAK */
+        .back-button {
+            display: block;
+            width: 100%;
+            margin-top: 30px;
+            padding: 12px;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+
+            .back-button:hover {
+                background-color: #2980b9;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="author-container">
+        <h1> Podaci o Autoru </h1>
+
+        <ul class="info-list">
+            <li>
+                <span class="info-label">Ime i prezime:</span>
+                <span class="info-value">Aleksandar Budimkić</span>
+            </li>
+            <li>
+                <span class="info-label">Škola:</span>
+                <span class="info-value">Tehnička škola Mladenovac</span>
+            </li>
+            <li>
+                <span class="info-label">Razred i odeljenje:</span>
+                <span class="info-value">III/4</span>
+            </li>
+            <li>
+                <span class="info-label">Predmetni nastavnik:</span>
+                <span class="info-value">Goran Stanković</span>
+            </li>
+        </ul>
+
+        <a href="index.html"class="back-button">← Povratak na Glavnu Stranicu</a>
+    </div>
+
+</body>
+</html>

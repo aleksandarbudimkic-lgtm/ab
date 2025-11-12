@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9266344B-F73D-46CE-A194-2626E11F807E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ms</RootNamespace>
+    <AssemblyName>ms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="appdata\I1.zip" />
+    <None Include="appdata\I2.zip" />
+    <None Include="appdata\i3.zip" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3.csproj.dtbcache.json" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3\v15\.suo" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3\v15\Server\sqlite3\db.lock" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3\v15\Server\sqlite3\storage.ide" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3\v18\.suo" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3\v18\DocumentLayout.backup.json" />
+    <None Include="appdata\i3\igrica 3\.vs\igrica 3\v18\DocumentLayout.json" />
+    <None Include="appdata\i3\igrica 3\App.config" />
+    <None Include="appdata\i3\igrica 3\bin\Debug\igrica 3.exe.config" />
+    <None Include="appdata\i3\igrica 3\igrica 3.csproj" />
+    <None Include="appdata\i3\igrica 3\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="appdata\i3\igrica 3\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="appdata\i3\igrica 3\obj\Debug\igrica 3.csproj.AssemblyReference.cache" />
+    <None Include="appdata\i3\igrica 3\obj\Debug\igrica 3.csproj.CoreCompileInputs.cache" />
+    <None Include="appdata\i3\igrica 3\obj\Debug\igrica 3.csproj.GenerateResource.cache" />
+    <None Include="appdata\i3\igrica 3\obj\Debug\igrica 3.csprojAssemblyReference.cache" />
+    <None Include="appdata\i3\igrica 3\Properties\Settings.settings" />
+    <None Include="appdata\i4.zip" />
+    <None Include="appdata\i5.zip" />
+    <None Include="appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\.suo" />
+    <None Include="appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\Server\sqlite3\db.lock" />
+    <None Include="appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\Server\sqlite3\storage.ide" />
+    <None Include="appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="appdata\i5\Igrica tokom testa\App.config" />
+    <None Include="appdata\i5\Igrica tokom testa\bin\Debug\Igrica tokom testa.exe.config" />
+    <None Include="appdata\i5\Igrica tokom testa\Igrica tokom testa.csproj" />
+    <None Include="appdata\i5\Igrica tokom testa\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="appdata\i5\Igrica tokom testa\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.csproj.CoreCompileInputs.cache" />
+    <None Include="appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.csproj.GenerateResource.cache" />
+    <None Include="appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.csprojAssemblyReference.cache" />
+    <None Include="appdata\i5\Igrica tokom testa\Properties\Settings.settings" />
+    <None Include="appdata\i6.zip" />
+    <None Include="appdata\Igrica3.zip" />
+    <None Include="appdata\igrica4.zip" />
+    <None Include="appdata\Igrica5.zip" />
+    <None Include="slike\appdata\I1.zip" />
+    <None Include="slike\appdata\I2.zip" />
+    <None Include="slike\appdata\i3.zip" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3.csproj.dtbcache.json" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3\v15\.suo" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3\v15\Server\sqlite3\db.lock" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3\v15\Server\sqlite3\storage.ide" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3\v18\.suo" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3\v18\DocumentLayout.backup.json" />
+    <None Include="slike\appdata\i3\igrica 3\.vs\igrica 3\v18\DocumentLayout.json" />
+    <None Include="slike\appdata\i3\igrica 3\App.config" />
+    <None Include="slike\appdata\i3\igrica 3\bin\Debug\igrica 3.exe.config" />
+    <None Include="slike\appdata\i3\igrica 3\igrica 3.csproj" />
+    <None Include="slike\appdata\i3\igrica 3\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="slike\appdata\i3\igrica 3\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="slike\appdata\i3\igrica 3\obj\Debug\igrica 3.csproj.AssemblyReference.cache" />
+    <None Include="slike\appdata\i3\igrica 3\obj\Debug\igrica 3.csproj.CoreCompileInputs.cache" />
+    <None Include="slike\appdata\i3\igrica 3\obj\Debug\igrica 3.csproj.GenerateResource.cache" />
+    <None Include="slike\appdata\i3\igrica 3\obj\Debug\igrica 3.csprojAssemblyReference.cache" />
+    <None Include="slike\appdata\i3\igrica 3\Properties\Settings.settings" />
+    <None Include="slike\appdata\i4.zip" />
+    <None Include="slike\appdata\i5.zip" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\.suo" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\Server\sqlite3\db.lock" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\Server\sqlite3\storage.ide" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\.vs\Igrica tokom testa\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\App.config" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\bin\Debug\Igrica tokom testa.exe.config" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\Igrica tokom testa.csproj" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.csproj.CoreCompileInputs.cache" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.csproj.GenerateResource.cache" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.csprojAssemblyReference.cache" />
+    <None Include="slike\appdata\i5\Igrica tokom testa\Properties\Settings.settings" />
+    <None Include="slike\appdata\i6.zip" />
+    <None Include="slike\appdata\Igrica3.zip" />
+    <None Include="slike\appdata\igrica4.zip" />
+    <None Include="slike\appdata\Igrica5.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appdata\cpp.html" />
+    <Content Include="appdata\cs.html" />
+    <Content Include="appdata\i3\igrica 3\bin\Debug\igrica 3.exe" />
+    <Content Include="appdata\i3\igrica 3\bin\Debug\igrica 3.pdb" />
+    <Content Include="appdata\i3\igrica 3\igrica 3.sln" />
+    <Content Include="appdata\i3\igrica 3\obj\Debug\igrica 3.csproj.FileListAbsolute.txt" />
+    <Content Include="appdata\i3\igrica 3\obj\Debug\igrica 3.exe" />
+    <Content Include="appdata\i3\igrica 3\obj\Debug\igrica 3.pdb" />
+    <Content Include="appdata\i3\igrica 3\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="appdata\i5\Igrica tokom testa\bin\Debug\Igrica tokom testa.exe" />
+    <Content Include="appdata\i5\Igrica tokom testa\bin\Debug\Igrica tokom testa.pdb" />
+    <Content Include="appdata\i5\Igrica tokom testa\Igrica tokom testa.sln" />
+    <Content Include="appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.csproj.FileListAbsolute.txt" />
+    <Content Include="appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.exe" />
+    <Content Include="appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.pdb" />
+    <Content Include="appdata\oautoru.html" />
+    <Content Include="appdata\index.html" />
+    <Content Include="slike\appdata\cpp.html" />
+    <Content Include="slike\appdata\cs.html" />
+    <Content Include="slike\appdata\i3\igrica 3\bin\Debug\igrica 3.exe" />
+    <Content Include="slike\appdata\i3\igrica 3\bin\Debug\igrica 3.pdb" />
+    <Content Include="slike\appdata\i3\igrica 3\igrica 3.sln" />
+    <Content Include="slike\appdata\i3\igrica 3\obj\Debug\igrica 3.csproj.FileListAbsolute.txt" />
+    <Content Include="slike\appdata\i3\igrica 3\obj\Debug\igrica 3.exe" />
+    <Content Include="slike\appdata\i3\igrica 3\obj\Debug\igrica 3.pdb" />
+    <Content Include="slike\appdata\i3\igrica 3\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="slike\appdata\i5\Igrica tokom testa\bin\Debug\Igrica tokom testa.exe" />
+    <Content Include="slike\appdata\i5\Igrica tokom testa\bin\Debug\Igrica tokom testa.pdb" />
+    <Content Include="slike\appdata\i5\Igrica tokom testa\Igrica tokom testa.sln" />
+    <Content Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.csproj.FileListAbsolute.txt" />
+    <Content Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.exe" />
+    <Content Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\Igrica tokom testa.pdb" />
+    <Content Include="slike\appdata\index.html" />
+    <Content Include="slike\appdata\oautoru.html" />
+    <Content Include="slike\Screenshot 2025-11-07 033026.png" />
+    <Content Include="slike\Screenshot 2025-11-07 033229.png" />
+    <Content Include="slike\Screenshot 2025-11-07 033509.png" />
+    <Content Include="slike\Screenshot 2025-11-07 033801.png" />
+    <Content Include="slike\Screenshot 2025-11-07 033820.png" />
+    <Content Include="slike\Screenshot 2025-11-07 034614.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145000.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145051.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145126.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145201.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145330.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145600.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145634.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145733.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145810.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145848.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145921.png" />
+    <Content Include="slike\Screenshot 2025-11-12 145951.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150030.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150101.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150131.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150202.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150255.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150331.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150352.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150423.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150529.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150607.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150703.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150744.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150819.png" />
+    <Content Include="slike\Screenshot 2025-11-12 150921.png" />
+    <Content Include="slike\Screenshot 2025-11-12 151026.png" />
+    <Content Include="slike\sd - Copy.jpg" />
+    <Content Include="slike\sd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="appdata\i3\igrica 3\Form1.cs" />
+    <Compile Include="appdata\i3\igrica 3\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="appdata\i3\igrica 3\obj\Debug\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs" />
+    <Compile Include="appdata\i3\igrica 3\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="appdata\i3\igrica 3\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="appdata\i3\igrica 3\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="appdata\i3\igrica 3\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="appdata\i3\igrica 3\Program.cs" />
+    <Compile Include="appdata\i3\igrica 3\Properties\AssemblyInfo.cs" />
+    <Compile Include="appdata\i3\igrica 3\Properties\Resources.Designer.cs" />
+    <Compile Include="appdata\i3\igrica 3\Properties\Settings.Designer.cs" />
+    <Compile Include="appdata\i5\Igrica tokom testa\Form1.cs" />
+    <Compile Include="appdata\i5\Igrica tokom testa\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="appdata\i5\Igrica tokom testa\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="appdata\i5\Igrica tokom testa\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="appdata\i5\Igrica tokom testa\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="appdata\i5\Igrica tokom testa\Program.cs" />
+    <Compile Include="appdata\i5\Igrica tokom testa\Properties\AssemblyInfo.cs" />
+    <Compile Include="appdata\i5\Igrica tokom testa\Properties\Resources.Designer.cs" />
+    <Compile Include="appdata\i5\Igrica tokom testa\Properties\Settings.Designer.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\Form1.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="slike\appdata\i3\igrica 3\obj\Debug\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\Program.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\Properties\AssemblyInfo.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\Properties\Resources.Designer.cs" />
+    <Compile Include="slike\appdata\i3\igrica 3\Properties\Settings.Designer.cs" />
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\Form1.cs" />
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\Program.cs" />
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\Properties\AssemblyInfo.cs" />
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\Properties\Resources.Designer.cs" />
+    <Compile Include="slike\appdata\i5\Igrica tokom testa\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="appdata\i3\igrica 3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="appdata\i3\igrica 3\obj\Debug\igrica_3.Form1.resources" />
+    <EmbeddedResource Include="appdata\i3\igrica 3\obj\Debug\igrica_3.Properties.Resources.resources" />
+    <EmbeddedResource Include="appdata\i3\igrica 3\Properties\Resources.resx" />
+    <EmbeddedResource Include="appdata\i5\Igrica tokom testa\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="appdata\i5\Igrica tokom testa\obj\Debug\Igrica_tokom_testa.Form1.resources" />
+    <EmbeddedResource Include="appdata\i5\Igrica tokom testa\obj\Debug\Igrica_tokom_testa.Properties.Resources.resources" />
+    <EmbeddedResource Include="appdata\i5\Igrica tokom testa\Properties\Resources.resx" />
+    <EmbeddedResource Include="slike\appdata\i3\igrica 3\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slike\appdata\i3\igrica 3\obj\Debug\igrica_3.Form1.resources" />
+    <EmbeddedResource Include="slike\appdata\i3\igrica 3\obj\Debug\igrica_3.Properties.Resources.resources" />
+    <EmbeddedResource Include="slike\appdata\i3\igrica 3\Properties\Resources.resx" />
+    <EmbeddedResource Include="slike\appdata\i5\Igrica tokom testa\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\Igrica_tokom_testa.Form1.resources" />
+    <EmbeddedResource Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\Igrica_tokom_testa.Properties.Resources.resources" />
+    <EmbeddedResource Include="slike\appdata\i5\Igrica tokom testa\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="appdata\i3\igrica 3\bin\Release\" />
+    <Folder Include="appdata\i5\Igrica tokom testa\bin\Release\" />
+    <Folder Include="appdata\i5\Igrica tokom testa\obj\Debug\TempPE\" />
+    <Folder Include="slike\appdata\i3\igrica 3\bin\Release\" />
+    <Folder Include="slike\appdata\i5\Igrica tokom testa\bin\Release\" />
+    <Folder Include="slike\appdata\i5\Igrica tokom testa\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
